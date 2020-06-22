@@ -4,7 +4,7 @@ Verify firebase auth in your golang GCP cloud functions
 ## Installation
 
 ```bash
-$ go get github.com/Jblew/go-firebase-auth-in-gcp-functions@1.0.0
+$ go get github.com/Jblew/go-firebase-auth-in-gcp-functions@1.0.1
 ```
 
 ## Usage
