@@ -35,3 +35,8 @@ func SomeGCPHttpCloudFunction(w http.ResponseWriter, req *http.Request) error {
 }
 
 ```
+
+---
+
+Made with ❤️ by [Jędrzej Lewandowski](https://jedrzej.lewandowski.doctor/).
+
