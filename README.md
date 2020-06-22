@@ -13,10 +13,10 @@ $ go get github.com/Jblew/go-firebase-auth-in-gcp-functions@1.0.0
 package functions
 
 import (
-	"context"
-	"fmt"
-	"log"
-	"net/http"
+  "context"
+  "fmt"
+  "log"
+  "net/http"
 
   firebaseGcpAuth "github.com/Jblew/go-firebase-auth-in-gcp-functions"
   auth "firebase.google.com/go/auth"
@@ -25,8 +25,8 @@ import (
 func SomeGCPHttpCloudFunction(w http.ResponseWriter, req *http.Request) error {
    // You need to provide 1. Context, 2. request, 3. firebase auth client
   var client *auth.Client
-	firebaseUser, err := firebaseGcpAuth.AuthenticateFirebaseUser(context.Background(), req, authClient)
-	if err != nil {
+  firebaseUser, err := firebaseGcpAuth.AuthenticateFirebaseUser(context.Background(), req, authClient)
+  if err != nil {
     return err // Error if not authenticated or bearer token invalid
   }
 
